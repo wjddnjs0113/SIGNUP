@@ -1,0 +1,80 @@
+html{
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #CEAB93;
+}
+
+#wrapper{
+  width: 420px;
+  box-shadow: 0px 4px 14px rgba(0,0,0,0.2);
+  background-color: #FFFBE9;
+}
+
+h2{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.inputGroup{
+  padding: 8px 12px;
+}
+
+.inputGroup label{
+  display: block;
+  padding: 12px 0px;
+}
+
+.inputGroup input{
+  display: block;
+  width: 90%;
+  padding: 12px;
+  border: 2px solid #e2e2e2;
+}
+
+.inputGroup input:focus{
+  outline: none;
+  border-color: #888;
+}
+
+.valid input{
+  border: 5px solid #3368A0;
+}
+
+.invalid input{
+  border: 5px solid #DF301C;
+}
+
+.inputGroup .helperText{
+  visibility: hidden;
+  display: block;
+  padding-top: 8px;
+}
+
+.valid .helperText{
+  visibility: hidden;
+  display: block;
+}
+
+.invalid .helperText{
+  visibility: visible;
+  color: orange;
+}
+
+#wrapper button{
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  height: 50px;
+  margin-bottom: 25px;
+  font-size: 18px;
+  background-color: green;
+  border: 2px solid green;
+  color: white;
+  cursor: pointer;
+}
